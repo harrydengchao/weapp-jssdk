@@ -1,5 +1,7 @@
-import sdkLoad from '../../lib/sdk-load'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-sdkLoad(function() {
-  console.log(123)
-})
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+)
