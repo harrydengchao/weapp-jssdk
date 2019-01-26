@@ -3,10 +3,14 @@
     ["env", {
       "modules": false,
       "targets": {
-        // The % refers to the global coverage of users from browserslist
-        "browsers": [ ">0.1%", "not ie 11", "iOS >= 8", "Android >= 4.2"]
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8", "iOS >= 8", "Android >= 4.1"]
       }
-    }]
+    }],
+    "react",
+    "stage-2"
   ],
-  "plugins": ["external-helpers"]
+  "plugins": [
+    "transform-class-properties",
+    "transform-runtime"
+  ]
 }
