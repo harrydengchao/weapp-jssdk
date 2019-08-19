@@ -1,24 +1,26 @@
 # weapp-jssdk
 
-`微信`、`微博` 签名
+`微信` 签名
 
----
+## 安装
 
-## Build Setup
+```bash
+$ npm install --save weapp-jssdk
+```
 
-``` bash
-# install dependencies
-npm install
+## 在微信中使用
+```html
+<html>
+  <head>
+    <script src="//res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+  </head>
+</html>
+```
+```javascript
+import { Jweixin } from 'weapp-jssdk'
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# auto open browser
-npm run dev --open
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+let jwexin = new Jweixin({
+  debug: true,
+  
+})
 ```
