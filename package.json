@@ -1,9 +1,9 @@
 {
   "name": "weapp-jssdk",
-  "version": "0.2.0",
+  "version": "2.0.1",
   "description": "weapp-jssdk",
   "author": "dengchao2056@126.com",
-  "repository": "",
+  "repository": "https://github.com/harrydengchao/weapp-jssdk",
   "main": "dist/super-sdk.js",
   "scripts": {
     "start": "npm run dev",
